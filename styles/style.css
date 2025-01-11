@@ -93,15 +93,15 @@ nav button:hover{
     padding: 1rem 2rem;
     border: 1px solid var(--button-clr);
     border-radius: 0.5rem;
-    background-color: var(--button-clr);
+    background: linear-gradient(to left, var(--button-clr), var(--hover-clr));
     color: white;
     font-size: var(--info-size);
     font-weight: 600;
     cursor: pointer;
 }
 .hero-info button:hover{
-    background-color: #006a5ed5;
-    transition: all 0.9s ease;
+    background: var(--button-clr);
+    transition: all 1s ease;
 }
 .hero img{
     width:475px ;
