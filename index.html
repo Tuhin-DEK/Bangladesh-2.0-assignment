@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="assets/hero.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <title>Bangladesh 2.0 </title>
+    
 </head>
 
 <body>
@@ -23,7 +24,7 @@
                 </h1>
                 <button>Explore New Bangladesh </button>
             </div>
-            <img src="/assets/hero.png" alt="hero image">
+            <img src="/assets/hero.png" alt="hero image" loading="lazy" >
 
         </div>
     </header>
@@ -166,7 +167,7 @@
                     digital transformation, and robust infrastructure, the country is set to become a global model of
                     development.</p>
                 <div class="newscard">
-                    <img src="assets/satelite.png" alt="aljazeera news">
+                    <img src="assets/satelite.png" alt="aljazeera news" loading="lazy" >
                     <div class="news-heading">
                         <h1>Bangladesh Launchches New Satelite </h1>
                         <img class="aljazeera-png" src="assets/al-jazeera.png" alt="aljazeera news channel png">
@@ -192,11 +193,11 @@
                             expected to lead the Bangladesh Nationalist Party in the upcoming elections</p>
                         <button>Read More</button>
                     </div>
-                    <img src="https://api.bnpbd.org/api/upload/images/khaleda-zia-7157.jpg" alt="aljazeera news">
+                    <img src="https://api.bnpbd.org/api/upload/images/khaleda-zia-7157.jpg" alt="aljazeera news" loading="lazy">
                 </div>
                 <div class="newscard">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoxSJigFOt2csD5hqEw9K4FkgVnXbPgg0tpA&s"
-                        alt="aljazeera news">
+                        alt="aljazeera news" loading="lazy">
                     <div class="news-heading">
                         <h1>Investigations into Anti-Corruption Minister's Properties</h1>
                         <img class="aljazeera-png" src="assets/al-jazeera.png" alt="aljazeera news channel png">
@@ -227,7 +228,7 @@
                         <button>Read More</button>
                     </div>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxXogCtf_AW2HOBwIhatY-jjrUm7rfT9-18w&s"
-                        alt="aljazeera news">
+                        alt="aljazeera news" loading="lazy">
                 </div>
             </div>
             <div class="donate-for-people">
@@ -268,6 +269,19 @@
             <a href="#"><img src="/assets/instagram.png" alt="instagram"></a>
         </div>
     </footer>
+    <!-- i took it form chatgpt -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const lazyImages = document.querySelectorAll("img[loading='lazy']");
+
+    lazyImages.forEach(function(img) {
+        img.addEventListener('load', function() {
+            img.classList.add('loaded');
+        });
+    });
+});
+
+    </script>
 </body>
 
 
