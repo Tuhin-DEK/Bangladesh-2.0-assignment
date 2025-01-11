@@ -368,6 +368,9 @@ nav button:hover{
     font-weight: 700;
     background-color: transparent;
 }
+.younus-quote .chief{
+    color: #0e0e0e5e;
+}
 .opinion-section{
     display: flex;
     flex-direction: column;
